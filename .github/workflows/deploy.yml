@@ -5,7 +5,7 @@ on:
   push: {branches: [main]}
   # Run this workflow at (min hour day day-of-month month day-of-week) in UTC, 
   # cf https://docs.github.com/en/actions/reference/events-that-trigger-workflows#schedule
-  schedule: [{cron: "45 19 * * *"}]
+  schedule: [{cron: "00 1 * * *"}]
   # Run this workflow when triggered manually in GitHub’s UI.
   workflow_dispatch: {}
 
